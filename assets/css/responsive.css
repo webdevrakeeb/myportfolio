@@ -1,0 +1,207 @@
+@media only screen and (max-width: 992px) {
+/* 	Header Area */
+	.content{
+	    width: 80%;
+	    margin: 0px auto;
+	}
+	.logo {
+	  width: 18%;
+	}
+
+	.contact {
+	  width: 32%;
+	}
+/* Banner Area */
+	.banner {
+	  padding: 145px 0px;
+	}
+
+/* About Page , Contact Information Area */
+	.address {
+	  width: 50%;
+	  padding-top: 10px;
+	}
+
+	.contact_form input {
+	  width: 100%;
+	}
+
+	.contact_form textarea {
+	  width: 100%;
+	}
+} 
+
+@media only screen and (max-width: 769px) {
+/* 	Header Area */
+	.content{
+	    width: 80%;
+	    margin: 0px auto;
+	}
+	.logo {
+	  width: 10%;
+	}
+
+	.contact {
+	  width: 40%;
+	}
+/* Banner Area */
+	.banner {
+	  padding: 145px 0px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+/* 	Header Area */
+	.content {
+	  width: 100%;
+	}
+
+	.logo {
+	  width: 10%;
+	  float: left;
+	  text-align: center;
+	}
+
+	.menu {
+	  width: 55%;
+	}
+
+	.contact {
+	  width: 35%;
+	  float: left;
+	}
+/* Banner Area */
+	.banner {
+	  padding: 120px 0px;
+	}
+
+/* Introduction area start */
+	.image {
+	  width: 40%;
+	}
+
+	.text {
+	  width: 52%;
+	}
+
+/* Services section start */
+	.single_service {
+	  width: 49%;
+	  float: left;
+	}
+
+/* My team section start */
+	.single_member_box {
+	  width: 48%;
+	  margin-left: 2%;
+	  margin-top: 12px;
+	}
+
+/* My recent projects start */
+	.single_project {
+	  width: 49%;
+	  margin-left: 1%;
+	}
+	.single_project a img {
+	  height: 180px;
+	}
+
+/* Contact Information Area */
+	.address {
+	  width: 32%;
+	  padding-top: 10px;
+	  box-sizing: border-box;
+	}
+
+	.contact_form {
+	  width: 68%;
+	  float: right;
+	}
+}
+
+@media only screen and (max-width: 556px) {
+/* 	Header Area */
+	.logo {
+	  width: 20%;
+	}
+	.menu {
+	  width: 80%;
+	  display: none;
+	}
+
+	.menu ul li {
+		display: block;
+		text-align: center;
+		margin: auto;
+		width: 180px;
+	}
+
+	.mobile_menu_icon {
+	  display: block;
+	  text-align: right;
+	  margin-right: 30px;
+	  font-size: 40px;
+	  cursor: pointer;
+	}
+	.contact {
+	  width: 100%;
+	}
+	.contact p {
+	  margin-left: 15px;
+	  margin-top: 5px;
+	}
+
+/* Banner Area */
+	.banner {
+	  padding: 90px;
+	}
+	.banner-caption h2 {
+	  font-size: 18px;
+	}
+
+/* Introduction area start */
+	.image {
+	  width: 100%;
+	}
+
+	.text {
+	  width: 100%;
+	  margin-top: 20px;
+	}
+
+/* Services section start */
+	.single_service {
+	  width: 100%;
+	}
+
+/* My team section start */
+	.single_member_box {
+	  width: 100%;
+	}
+
+/* My recent projects start */
+	.single_project {
+	  width: 100%;
+	}
+
+	.last_stage p {
+	  font-size: 15px;
+	}
+
+/* About page style */
+	.my_details {
+	  padding: 0px 40px;
+	  box-sizing: border-box;
+	}
+
+/* Address Area	 */
+	.address {
+	  width: 100%;
+	  padding: 10px;
+	}
+
+	.contact_form {
+	  width: 100%;
+	  float: right;
+	}
+}

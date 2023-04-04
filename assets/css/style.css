@@ -1,0 +1,573 @@
+.text-center{
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+/* Header area start */
+.header{
+    background-color: azure;
+}
+.content{
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.logo {
+    width: 25%;
+    float: left;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.mobile_menu_icon {
+    display: none;
+}
+
+.menu {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+    margin-top: 11px;
+    margin-bottom: 0;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    text-transform: uppercase;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    padding: 8px;
+    color: black;
+}
+
+.menu ul li:hover {
+  background: burlywood;
+}
+
+.contact {
+    width: 25%;
+    float: left;
+}
+
+.contact p {
+    margin-bottom: 0;
+}
+
+/* Header area end */
+
+/* Banner area start */
+.banner{
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 180px 0px;
+    position: relative;
+    z-index: 1;
+}
+.banner-caption h2{
+    color: #fff;
+    font-weight: 700;
+}
+.banner::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+/* Banner area end */
+
+/* Introduction area start */
+.srt-dtls{
+    background-color: azure;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.qus h1 {
+    margin-top: 10px;
+  }
+.srt_dtls{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.lable {
+    width: 50%;
+    float: left;
+}
+
+.desc {
+    width: 50%;
+    float: right;   
+}
+
+.image{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.image img {
+    border: 1px solid black;
+    height: 350px;
+}
+
+.text{
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+}
+
+
+/* Introduction area end */
+
+
+/* Details identification start */
+.area{
+    width: 80%;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+hr {
+  width: 84px;
+  margin: auto;
+}
+
+.dtls{
+    background-color: azure;
+    overflow: hidden;
+    padding-top: 20px ;
+}
+
+.full{
+    margin-top: 15px;
+}
+/* Details identification end */
+
+/* Service section start */
+.services {
+    background-color: azure;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.all_servic {
+    width: 80%;
+    margin: auto;
+}
+
+.single_service {
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+}
+
+.ser_dtls {
+  padding: 25px 0;
+}
+
+.ser_img {
+  text-align: center;
+}
+
+.ser_img i {
+  font-size: 50px;
+}
+
+.ser_des h4 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.ser_des {
+  padding: 0 10px;
+}
+/* Service section end */
+
+/* my team section style start */
+.myteam {
+    background-color: azure;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.all_members {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.myteam h2 {
+    text-align: center;
+}
+
+.myteam hr {
+  width: 135px;
+}
+
+.single_member_box {
+    width: 23%;
+    text-align: center;
+    float: left;
+    margin-left: 2%;
+}
+
+.mem_image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.mem_dtls {
+  margin-top: 10px;
+}
+
+.mem_dtls h3 {
+  font-size: 25px;
+}
+
+.mem_dtls h3, h4 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.mem_dtls h4 {
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.mem_dtls p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+/* my team section style end */
+
+/* Recent project section start */
+.recent-work {
+    background-color: azure; 
+    padding: 20px 0px;  
+}
+
+.recent-work h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.recent_project_boxs {
+    width: 80%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.single_project {
+    width: 23%;
+    float: left;
+    margin-left: 1%;
+
+}
+
+.single_project a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.single_project a img {
+    width: 100%;
+    height: 100px;
+}
+
+.single_project a h5 {
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+/* Recent project section end */
+
+/* All Project Section Start */
+.slider-area {
+    background-color: azure;
+    padding: 20px 0px;   
+}
+
+.slider-area h3 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.slide_all_projects {
+    width: 80%;
+    margin: auto;
+}
+
+.all_project_img {
+    padding-top: 20px;
+}
+
+.single_item {
+    width: 95%;
+    float: left;
+    margin-left: 1%;
+}
+
+.single_item img {
+    width: 100%;
+    height: 160px;
+}
+
+.area_slider{
+  position: relative;
+}
+
+.owl-prev {
+  position: absolute;
+  top: 96px;
+  left: 10px;
+  background: #dbd7d7 !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.owl-next {
+  position: absolute;
+  top: 96px;
+  right: 10px;
+  background: #dbd7d7 !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/* All Project Section End */
+
+/* Footer section Start */
+.last_stage {
+    background-color: black;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.last_stage p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+/* Footer section End */
+
+/* BLOG PAGE STYLE START */
+.full_blog {
+    padding: 20px 0px;
+    background: azure;
+}
+
+.main_blog {
+    width: 80%;
+    margin: auto;
+}
+
+.main_blog h1 {
+    text-align: center;
+}
+
+/* BLOG PAGE STYLE END */
+
+
+/* ABOUT PAGE STYLE START  */
+
+/* site content area start */
+.site_contente {
+  padding: 40px 0px;
+  background: azure;
+}
+/* PROGRESS STYLE START */
+
+  .skills span{
+     font-size: 25px;
+    font-weight: 700;
+  }
+  canvas {
+    width: 100px;
+    height: 100px;
+  }
+  #circle{
+    position: relative;
+    margin-top: 20px;
+  }
+  .box1 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .box2 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .box3 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .box4 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }  
+  .box5 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .box6 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .box7 strong {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
+/* site content area end */
+
+/* My Location Area Start */
+.address_contact {
+    background: azure;
+    overflow: hidden;
+}
+
+.location {
+    width: 80%;
+    margin: auto;
+}
+
+.google_map iframe {
+    width: 100%;
+    height: 250px;
+}
+
+.my_address {
+    padding-top: 20px;
+}
+
+.address {
+    width: 50%;
+    float: left;
+    padding-top: 110px ;
+    box-sizing: border-box;
+
+}
+
+.fa-brands.fa-square-whatsapp {
+  color: green;
+}
+
+.social_media ul li a {
+  text-decoration: none;
+}
+
+.social_media ul li a i {
+  margin-right: 5px;
+}
+
+.social_media ul li i {
+  margin-right: 5px;
+}
+
+.contact_form {
+    width: 50%;
+    float: right;
+}
+
+.contact_form input {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 13px;
+    padding: 0px 15px;
+    font-size: 26px;
+}
+
+.contact_form input:focus {
+  outline: none;
+}
+
+.contact_form textarea {
+  width: 80%;
+  margin: auto;
+  display: block;
+  margin-bottom: 14px;
+  height: 160px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.contact_form textarea:focus {
+  outline: none;
+}
+
+.contact_form input[type="submit"] {
+  background: #144614;
+  color: aliceblue;
+  font-weight: 700;
+  padding: 10px 0px;
+  width: 220px;
+  border: none;
+  border-radius: 20px;
+  font-size: 30px;
+}
+/* My Location Area End */
+
+/* ABOUT PAGE STYLE END  */
